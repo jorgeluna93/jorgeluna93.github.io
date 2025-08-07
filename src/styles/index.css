@@ -1,5 +1,5 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Avenir, Helvetica, Arial, sans-serif, system-ui;
   line-height: 1.5;
   font-weight: 400;
 
@@ -24,8 +24,6 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -65,4 +63,43 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.main-page-box{
+  background-color: #171421;
+  margin-top: 25px;
+  padding-bottom: 25px;
+  box-shadow: 5px 5px 5px #0F0F0F;
+  
+}
+
+.main-page-row{
+  padding-left: 25px;
+}
+
+.main-page-row-article-list{
+  padding-left: 15px;
+  padding-right:15px
+}
+
+
+.footer-text{
+  text-align: justify;
+}
+
+.article-title{
+  padding: 15px;
+}
+.article-title p{
+    margin-top: -20px;
+}
+
+.article-content{
+  text-align: justify;
+  padding: 15px;
+}
+
+.main-page-row-article-box{
+  padding-left: 15px;
+  padding-right: 15px;
 }
