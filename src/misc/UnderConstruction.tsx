@@ -1,8 +1,8 @@
 
-import underConstruction from './assets/underconstruction.svg'
-import './App.css'
+import underConstruction from '../assets/underconstruction.svg'
+import './UnderConstruction.css'
 
-function App() {
+function UnderConstruction() {
 
   return (
     <>
@@ -28,4 +28,4 @@ function App() {
   )
 }
 
-export default App
+export default UnderConstruction
