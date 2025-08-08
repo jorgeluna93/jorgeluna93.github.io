@@ -9,25 +9,27 @@ import Typography from '@mui/material/Typography';
 import fillerPic from '../assets/filler.jpg';
 export default function ArticlePreview() {
   return (
-    <Card sx={{ maxWidth: 345 }}>
-      <CardMedia
-        component="img"
-        alt="pic"
-        height="140"
-        image={fillerPic}
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-          Aliquam efficitur at magna sed pulvinar
-        </Typography>
-        <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultricies nisi id congue porttitor. 
-        </Typography>
-      </CardContent>
-      <CardActions>
-        <Button size="small">Read more</Button>
-        <Button size="small">Share</Button>
-      </CardActions>
-    </Card>
+    
+      <Card className="article-preview-box" sx={{ maxWidth: 345 }}>
+        <CardMedia
+          component="img"
+          alt="pic"
+          height="140"
+          image={fillerPic}
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="div" textAlign="justify">
+            Aliquam efficitur at magna sed pulvinar
+          </Typography>
+          <Typography variant="body2" sx={{ color: 'text.secondary' }} textAlign="justify">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultricies nisi id congue porttitor. 
+          </Typography>
+        </CardContent>
+        <CardActions>
+          <Button size="small">Read more</Button>
+          <Button size="small">Share</Button>
+        </CardActions>
+      </Card>
+    
   );
 }
