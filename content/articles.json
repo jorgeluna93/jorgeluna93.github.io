@@ -1,0 +1,14 @@
+{"articles" : [
+        {
+            "title":"First Article",
+            "date": "08/07/2025",
+            "content":"content"
+        },
+        {
+            "title":"Second Article",
+            "date": "08/07/2025",
+            "content":"content"
+        }
+    ]
+}
+
